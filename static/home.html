@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Home | Muhammad Ahad</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f5f7fa;
+            color: #222;
+            line-height: 1.7;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 18px 5%;
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background: #555;
+        }
+
+        main {
+            width: 90%;
+            max-width: 1100px;
+            margin: 40px auto;
+        }
+
+        section {
+            background: white;
+            padding: 35px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        h1 {
+            font-size: clamp(2rem, 5vw, 3rem);
+            margin-top: 0;
+        }
+
+        h2 {
+            font-size: clamp(1.4rem, 3vw, 2rem);
+        }
+
+        p {
+            font-size: clamp(1rem, 1.5vw, 1.1rem);
+        }
+
+        .button {
+            display: inline-block;
+            background: #333;
+            color: white;
+            text-decoration: none;
+            padding: 12px 22px;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background: #555;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+
+            header {
+                padding: 15px 10px;
+            }
+
+            nav ul {
+                flex-direction: column;
+                gap: 8px;
+            }
+
+            nav a {
+                display: block;
+                width: 100%;
+                text-align: center;
+            }
+
+            main {
+                width: 94%;
+                margin: 25px auto;
+            }
+
+            section {
+                padding: 22px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.4rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/journey">Journey</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section>
+        <h1>Learn DevOps from Basics to Professional</h1>
+
+        <p>
+            Welcome to my DevOps learning platform. I am Muhammad Ahad,
+            a Software Engineering student and DevOps enthusiast passionate
+            about cloud computing, automation, containerization, and modern
+            software delivery.
+        </p>
+
+        <p>
+            This platform is designed to help beginners learn DevOps step
+            by step through practical resources, hands-on projects, and
+            real-world technologies.
+        </p>
+
+        <a class="button" href="/journey">Explore My Journey</a>
+    </section>
+
+    <section>
+        <h2>What You Will Learn</h2>
+
+        <p>
+            Linux, Git, GitHub, Docker, CI/CD, Jenkins, GitHub Actions,
+            Kubernetes, Microsoft Azure, Terraform, Infrastructure as Code,
+            monitoring, and DevSecOps.
+        </p>
+    </section>
+
+    <section>
+        <h2>Learn by Building</h2>
+
+        <p>
+            DevOps is not just about learning tools. The best way to
+            understand DevOps is through practice. Explore hands-on
+            projects involving containerization, CI/CD pipelines,
+            cloud deployments, infrastructure automation, and
+            troubleshooting.
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; Muhammad Ahad</p>
+</footer>
+
+</body>
+</html>
